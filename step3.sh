@@ -12,4 +12,5 @@ rc-update add open-vm-tools boot
 rc-service docker start
 rc-update add docker boot
 
-
+rc-service sshd start
+rc-update add sshd boot
