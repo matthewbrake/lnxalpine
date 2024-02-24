@@ -6,7 +6,8 @@ apk add lightdm-gtk-greeter i3wm i3status libxcb-dev i3lock xf86-video-vmware dm
 apk add mesa-gl glib feh firefox-esr accountsservice openvpn
 apk add docker docker-compose
 apk add bash bash-doc bash-completion
-apk add sshd
+apk add openssh
+
 # add user
 echo "Creating a new user 'user' with sudo privileges..."
 apk add sudo
