@@ -1,8 +1,0 @@
-[org.freedesktop.DisplayManager.AccountsService]
-BackgroundFile='/home/user/wallpaper/compass.jpg'
-
-[User]
-Session=xfce
-XSession=i3
-Icon=/home/user/.face
-SystemAccount=false
