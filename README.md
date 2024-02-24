@@ -11,9 +11,9 @@ Alpine Linux Setup
 ## Auto Personalization
 * login as `root`
 * `apk add git`
-* `git clone https://github.com/ibuetler/alpine-linux-setup`
-* `cd alpine-linux-setup`
-* `./setup.sh`
+* `git clone https://github.com/ibuetler/alpine-linux-setup](https://github.com/matthewbrake/lnxalpine`
+* `cd lnxalpine`
+* `su ./setup.sh`
 
 ## Manual Personalization
 * login as `ibuetler`
