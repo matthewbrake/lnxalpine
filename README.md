@@ -11,12 +11,12 @@ Alpine Linux Setup
 ## Auto Personalization
 * login as `root`
 * `apk add git`
-* `git clone https://github.com/ibuetler/alpine-linux-setup](https://github.com/matthewbrake/lnxalpine`
+* `git clone 'https://github.com/matthewbrake/lnxalpine'
 * `cd lnxalpine`
 * `su ./setup.sh`
 
 ## Manual Personalization
-* login as `ibuetler`
+* login as `user`
 * `ssh-keygen`
 
 ````
