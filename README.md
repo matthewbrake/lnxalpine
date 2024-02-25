@@ -14,6 +14,7 @@ Alpine Linux Setup
 * `git clone 'https://github.com/matthewbrake/lnxalpine'
 * `cd lnxalpine`
 * `su ./setup.sh`
+* su root ./step1.sh
 
 ## Manual Personalization
 * login as `user`
