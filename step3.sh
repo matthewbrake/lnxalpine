@@ -25,7 +25,7 @@ docker run -d \
   portainer/agent:2.19.4
 #!/bin/sh
 
-# Backup the original sshd_config file
+# SSH Change to allow root
 cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
 
 # Enable root login via SSH
