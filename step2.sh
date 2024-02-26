@@ -4,6 +4,7 @@ apk add curl ca-certificates libseccomp socat nmap net-tools build-base setxkbma
 apk add open-vm-tools open-vm-tools-guestinfo open-vm-tools-deploypkg open-vm-tools-gtk
 apk add lightdm-gtk-greeter i3wm i3status libxcb-dev i3lock xf86-video-vmware dmenu
 apk add mesa-gl glib feh firefox-esr accountsservice openvpn
+apk add htop atop vtop gtop bashtop glances nmon
 apk add docker docker-compose
 apk add bash bash-doc bash-completion
 apk add openssh
