@@ -1,4 +1,4 @@
-
+#!/bin/sh
 # Install Dockage - https://github.com/louislam/dockge/blob/master/README.md
 apt install podman-docker
 
