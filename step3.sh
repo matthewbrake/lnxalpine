@@ -23,3 +23,15 @@ docker run -d \
   -v /var/run/docker.sock:/var/run/docker.sock \
   -v /var/lib/docker/volumes:/var/lib/docker/volumes \
   portainer/agent:2.19.4
+#!/bin/sh
+
+# Backup the original sshd_config file
+cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+
+# Enable root login via SSH
+sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
+
+# Restart OpenSSH service
+service sshd restart
+
+echo "Root SSH login enabled. Please make sure to secure your system and use this with caution."
