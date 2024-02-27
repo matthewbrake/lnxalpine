@@ -8,6 +8,7 @@ apk add htop atop vtop gtop bashtop glances nmon
 apk add docker docker-compose
 apk add bash bash-doc bash-completion
 apk add openssh
+apk add nfs-util
 
 # add user
 echo "Creating a new user 'user' with sudo privileges..."
