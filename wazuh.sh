@@ -21,4 +21,7 @@ cd wazuh-4.7.3
 # make -C src clean
 # make -C src clean-deps
 
+# Start Wazuh Service
+sudo  /var/ossec/bin/wazuh-control start
+
 echo "Wazuh installation completed."
