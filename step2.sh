@@ -1,7 +1,9 @@
 #!/bin/ash
 
 # Application Packages 
-apk add curl nano ca-certificates libseccomp socat nmap net-tools build-base setxkbmap sudo xrandr bash zsh dbus dbus-x11 sudo setup-xorg-base xfce4 xfce4-terminal lightdm dbus-x11
+apk add sudo curl nano ca-certificates libseccomp socat nmap net-tools
+# Display managers 
+# apk add sudo build-base setxkbmap xrandr bash zsh dbus dbus-x11 sudo setup-xorg-base xfce4 xfce4-terminal lightdm dbus-x11
 apk add open-vm-tools open-vm-tools-guestinfo open-vm-tools-deploypkg open-vm-tools-gtk
 apk add lightdm-gtk-greeter i3wm i3status libxcb-dev i3lock xf86-video-vmware dmenu
 apk add mesa-gl glib feh firefox-esr accountsservice openvpn
@@ -11,7 +13,7 @@ apk add bash bash-doc bash-completion
 apk add openssh
 apk add dpkg rpm
 apk add nfs-util
-apk add make gcc python-dev automake autoconf libtool curl openssl openssl-dev libgcc alpine-sdk
+# apk add make gcc python-dev automake autoconf libtool curl openssl openssl-dev libgcc alpine-sdk
 apk --no-cache add ca-certificates wget
 
 # Download and install glibc (required for certain applications)
