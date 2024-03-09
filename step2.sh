@@ -1,7 +1,7 @@
 #!/bin/ash
 
 # Application Packages 
-apk add sudo curl nano ca-certificates libseccomp socat nmap net-tools
+apk add sudo curl nano ca-certificates libseccomp socat nmap net-tools nfs-utils
 # Display managers 
 # apk add sudo build-base setxkbmap xrandr bash zsh dbus dbus-x11 sudo setup-xorg-base xfce4 xfce4-terminal lightdm dbus-x11
 #apk add lightdm-gtk-greeter i3wm i3status libxcb-dev i3lock xf86-video-vmware dmenu
