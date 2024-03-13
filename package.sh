@@ -1,5 +1,9 @@
 #!/bin/ash
 
+# Update apk repositories
+apk update
+apk upgrade
+
 # Application Packages 
 apk add sudo curl nano wget tzdata musl vim ca-certificates libseccomp socat nmap net-tools nfs-utils iptables
 apk add busybox-extras
@@ -26,6 +30,7 @@ apk add glibc-2.28-r0.apk
 
 # Update apk repositories
 apk update
+apk upgrade
 
 # Essential Tools
 apk add sudo curl nano wget tzdata musl vim ca-certificates libseccomp socat nmap net-tools nfs-utils iptables busybox-extras openssh bash bash-doc bash-completion dpkg rpm make gcc python-dev automake autoconf libtool openssl openssl-dev libgcc alpine-sdk
@@ -47,4 +52,5 @@ apk add htop atop vtop gtop bashtop glances nmon
 apk add openvpn
 
 # Cleaning up cache
+apk chache clean
 rm -rf /var/cache/apk/*
