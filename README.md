@@ -6,8 +6,12 @@ Alpine Linux Setup
 * download iso from internet
 * create vm, boot
 * run `setup-alpine` script
+* do not create a new user in this script yet
+* Allow root to access ssh
 * `reboot`
-
+* run `setup-apkrepos -cf`
+* apk add sudo
+  
 ## Auto Personalization
 * login as `root`
 * `apk add git`
