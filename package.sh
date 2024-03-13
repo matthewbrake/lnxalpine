@@ -35,6 +35,9 @@ apk upgrade
 # Essential Tools
 apk add sudo curl nano wget tzdata musl vim ca-certificates libseccomp socat nmap net-tools nfs-utils iptables busybox-extras openssh bash bash-doc bash-completion dpkg rpm make gcc python-dev automake autoconf libtool openssl openssl-dev libgcc alpine-sdk
 
+# Disk Utils
+sudo apk add --no-cache util-linux e2fsprogs cfdisk e2fsprogs-extra
+
 # Development Tools (Uncomment if needed)
 # apk add git gdb valgrind
 
