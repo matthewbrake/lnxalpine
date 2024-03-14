@@ -5,6 +5,13 @@ echo "Updating the system..."
 apk update
 apk upgrade
 
+# Display managers 
+# apk add sudo build-base setxkbmap xrandr bash zsh dbus dbus-x11 sudo setup-xorg-base xfce4 xfce4-terminal lightdm dbus-x11
+#apk add lightdm-gtk-greeter i3wm i3status libxcb-dev i3lock xf86-video-vmware dmenu
+apk add open-vm-tools open-vm-tools-guestinfo open-vm-tools-deploypkg open-vm-tools-gtk
+apk add mesa-gl glib feh firefox-esr accountsservice openvpn
+apk add htop atop vtop btop gtop bashtop glances nmon
+
 # Install necessary packages for GUI setup
 echo "Installing Xorg and essential GUI packages..."
 apk add xorg-server xfce4 xfce4-terminal lightdm lightdm-gtk-greeter dbus-x11 accountsservice
