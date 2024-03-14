@@ -17,6 +17,7 @@ sudo apk add fail2ban iptables nftables clamav rkhunter gnupg openssl openvpn wi
 
 # System Monitoring and Performance
 sudo apk add sysstat dstat glances logrotate lsof strace perf
+htop ntop bpytop iftop
 
 # Compression and Archiving
 sudo apk add zip unzip bzip2 gzip tar xz 7zip p7zip lzip lrzip
