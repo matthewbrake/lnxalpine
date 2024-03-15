@@ -9,6 +9,7 @@ chmod 755 /nextcloud/nfs
 
 # Step 3: Configure NFS Share
 echo "/nextcloud/nfs *(rw,sync,no_root_squash,no_subtree_check)" >> /etc/exports
+### sudo nano /etc/exports and add to the last line , save and modify maybe reboot < /nextcloud/nfs *(rw,sync,no_root_squash,no_subtree_check) >
 
 # Step 4: Export NFS Share
 exportfs -a
