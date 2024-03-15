@@ -1,5 +1,7 @@
 #!/bin/ash
 
+# run setup-user?
+
 # add user
 echo "Creating a new user 'user' with sudo privileges..."
 apk add sudo
