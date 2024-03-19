@@ -10,7 +10,7 @@ sudo apk add alpine-base
 # Package Categories
 
 # 1. Essential Utilities
-sudo apk add bash zsh fish nano vim neovim emacs curl wget git tmux screen htop atop iotop tree pv jq file grep sed awk gawk less tar gzip bzip2 xz zip unzip which findutils coreutils binutils util-linux moreutils
+sudo apk add bash zsh fish nano vim neovim emacs curl wget cron git tmux screen htop atop iotop tree pv jq file grep sed awk gawk less tar gzip bzip2 xz zip unzip which findutils coreutils binutils util-linux moreutils
 
 # 2. Networking Tools
 sudo apk add net-tools bind-tools iproute2 nmap iftop iperf3 traceroute whois openssh-client openssh-server sshpass wireless-tools wireshark tshark ethtool wpa_supplicant
@@ -19,7 +19,7 @@ sudo apk add net-tools bind-tools iproute2 nmap iftop iperf3 traceroute whois op
 sudo apk add fail2ban iptables nftables clamav rkhunter gnupg openssl openvpn wireguard-tools
 
 # 4. System Monitoring and Performance
-sudo apk add sysstat dstat glances logrotate lsof strace perf htop ntop bpytop iftop ncdu
+sudo apk add btop sysstat dstat glances logrotate lsof strace perf htop ntop bpytop iftop ncdu
 
 # 5. Compression and Archiving
 sudo apk add p7zip lz4
@@ -43,7 +43,7 @@ sudo apk add postgresql mysql mariadb-client sqlite mongodb redis
 sudo apk add docker docker-compose podman kubernetes-client
 
 # 12. File Sharing and Synchronization
-sudo apk add rsync nfs-utils cifs-utils samba-client syncthing curlftpfs
+sudo apk add rsync nfs-utils samba cifs-utils samba-client syncthing curlftpfs
 
 # 13. Multimedia Tools
 sudo apk add ffmpeg vlc imagemagick graphicsmagick
