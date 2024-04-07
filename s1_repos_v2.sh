@@ -7,11 +7,15 @@ alpineversion=$(cat /etc/alpine-release | cut -d "." -f 1-2 | awk '{print "v"$1}
 main_repo="http://dl-cdn.alpinelinux.org/alpine/$alpineversion/main"
 community_repo="http://dl-cdn.alpinelinux.org/alpine/$alpineversion/community"
 edge_repo="http://dl-cdn.alpinelinux.org/alpine/edge/testing"
+vmware="@vmware https://packages.vmware.com/packages/esx/7.0.0"
 
 # Add the repository URLs to /etc/apk/repositories
 echo "$community_repo" >> /etc/apk/repositories
 echo "$main_repo" >> /etc/apk/repositories
 echo "$edge_repo" >> /etc/apk/repositories
+echo "$vmware" >> /etc/apk/repositories
 
 # Update package indexes
 apk update
+apk upgrade
+apk clean cache
