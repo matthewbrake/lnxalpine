@@ -6,7 +6,7 @@ apk upgrade
 apk alpine-sdk
 
 # Essential Tools
-apk add sudo curl nano wget tzdata musl vim ca-certificates libseccomp socat nmap net-tools nfs-utils iptables busybox-extras openssh bash bash-doc bash-completion dpkg rpm make gcc automake autoconf libtool openssl openssl-dev libgcc alpine-sdk
+apk add sudo curl nano wget tzdata musl vim ca-certificates libnice-gstreamer libseccomp socat nmap net-tools nfs-utils iptables busybox-extras openssh bash bash-doc bash-completion dpkg rpm make gcc automake autoconf libtool openssl openssl-dev libgcc alpine-sdk
 apk add busybox-extras
 apk add open-vm-tools
 
