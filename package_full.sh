@@ -10,10 +10,8 @@ apk add --update alpine-sdk
 # Package Categories
 
 # 1. Essential Utilities
-sudo apk add bash zsh fish nano vim neovim emacs curl wget btop git tmux screen htop atop iotop tree pv jq file grep sed gawk less tar gzip bzip2 xz zip unzip which findutils coreutils binutils util-linux moreutils
-cifs-utils
-nfs-utils
-samba
+sudo apk add sudo openntpd bash zsh fish nano vim neovim emacs curl wget btop git tmux screen htop atop iotop tree pv jq file grep sed gawk less tar gzip bzip2 xz zip unzip which findutils coreutils binutils util-linux moreutils cifs-utils nfs-utils samba
+
 
 # 2. Networking Tools
 sudo apk add net-tools bind-tools iproute2 nmap iftop iperf3 traceroute whois openssh-client openssh-server sshpass wireless-tools wireshark tshark ethtool wpa_supplicant
