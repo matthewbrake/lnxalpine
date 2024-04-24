@@ -6,6 +6,7 @@ sudo apk upgrade
 
 # Alpine base
 sudo apk add alpine-base
+sudo apk add build-base
 apk add --update alpine-sdk
 # Package Categories
 
