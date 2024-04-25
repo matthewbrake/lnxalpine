@@ -15,7 +15,7 @@ sudo apk add sudo openntpd bash zsh fish nano vim neovim emacs curl wget btop gi
 
 
 # 2. Networking Tools
-sudo apk add net-tools bind-tools iproute2 nmap iftop iperf3 traceroute whois openssh-client openssh-server sshpass wireless-tools wireshark tshark ethtool wpa_supplicant
+sudo apk add net-tools bind-tools iproute2 nmap iftop iperf3 traceroute whois openssh-client openssh-server sshpass wireless-tools wireshark tshark ethtool wpa_supplicant proxychains-ng socat nethogs
 
 # 3. Security and Encryption
 sudo apk add fail2ban iptables nftables clamav rkhunter gnupg openssl openvpn wireguard-tools
