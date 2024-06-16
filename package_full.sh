@@ -7,6 +7,11 @@ sudo apk upgrade
 # Alpine base
 sudo apk add alpine-base alpine-keys alpine-sdk busybox build-base
 apk add --update alpine-sdk
+
+
+
+# VM Tools
+echo "@vmware https://packages.vmware.com/packages/esx/7.0.0" >> /etc/apk/repositories && sudo apk add open-vm-tools open-vm-tools-plugins-all open-vm-tools-guestinfo open-vm-tools-deploypkg && sudo rc-service open-vm-tools start && sudo rc-update add open-vm-tools default
 # Package Categories
 
 # 1. Essential Utilities
