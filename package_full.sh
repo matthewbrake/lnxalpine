@@ -5,8 +5,7 @@ sudo apk update
 sudo apk upgrade
 
 # Alpine base
-sudo apk add alpine-base
-sudo apk add build-base
+sudo apk add alpine-base alpine-keys alpine-sdk busybox build-base
 apk add --update alpine-sdk
 # Package Categories
 
@@ -15,7 +14,7 @@ sudo apk add sudo openntpd bash zsh fish nano vim neovim emacs curl wget btop gi
 
 
 # 2. Networking Tools
-sudo apk add net-tools bind-tools iproute2 nmap iftop iperf3 traceroute whois openssh-client openssh-server sshpass wireless-tools wireshark tshark ethtool wpa_supplicant proxychains-ng socat nethogs
+sudo apk add net-tools bind-tools iproute2 nmap iftop iperf3 traceroute whois openssh-client openssh-server sshpass wireless-tools wireshark tshark ethtool wpa_supplicant proxychains-ng socat nethogs iputils tcpdump 
 
 # 3. Security and Encryption
 sudo apk add fail2ban iptables nftables clamav rkhunter gnupg openssl openvpn wireguard-tools
@@ -27,7 +26,7 @@ sudo apk add btop sysstat dstat glances logrotate lsof strace perf htop ntop bpy
 sudo apk add p7zip lz4
 
 # 6. Disk Utilities and File Systems
-sudo apk add e2fsprogs xfsprogs dosfstools ntfs-3g lvm2 mdadm smartmontools gparted hdparm
+sudo apk add e2fsprogs xfsprogs dosfstools ntfs-3g lvm2 mdadm smartmontools gparted hdparm mtools cryptsetup
 
 # 7. Development Tools and Libraries
 sudo apk add build-base linux-headers gdb valgrind ctags git-lfs cmake autoconf automake libtool m4 gcc g++ make patch libc6-compat glibc libgcc libstdc++ musl libintl libcrypto1.1 libssl1.1 zlib libbz2 expat libffi musl-utils readline ncurses-libs ncurses-terminfo-base ca-certificates
@@ -42,10 +41,10 @@ sudo apk add nginx apache2 lighttpd tomcat-native varnish squid
 sudo apk add postgresql mysql mariadb-client sqlite mongodb redis
 
 # 11. Containerization and Virtualization
-sudo apk add docker docker-compose podman kubernetes-client
+sudo apk add docker docker-compose podman
 
 # 12. File Sharing and Synchronization
-sudo apk add rsync nfs-utils samba cifs-utils samba-client syncthing curlftpfs
+sudo apk add rsync nfs-utils samba samba-common cifs-utils samba-client syncthing curlftpfs
 
 # 13. Multimedia Tools
 sudo apk add ffmpeg vlc imagemagick graphicsmagick
