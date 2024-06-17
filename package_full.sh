@@ -7,7 +7,7 @@ sudo apk upgrade
 # Alpine base
 sudo apk add alpine-base alpine-keys alpine-sdk busybox build-base
 apk add --update alpine-sdk
-
+f
 
 
 # VM Tools
