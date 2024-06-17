@@ -36,7 +36,7 @@ sudo apk add e2fsprogs xfsprogs dosfstools ntfs-3g lvm2 mdadm smartmontools gpar
 sudo apk add build-base linux-headers gdb valgrind ctags git-lfs cmake autoconf automake libtool m4 gcc g++ make patch libc6-compat glibc libgcc libstdc++ musl libintl libcrypto1.1 libssl1.1 zlib libbz2 expat libffi musl-utils readline ncurses-libs ncurses-terminfo-base ca-certificates
 
 # 8. Programming Languages and Frameworks
-sudo apk add python3 py3-pip ruby nodejs npm go rust cargo php perl
+sudo apk add python3 python3-dev pipx py3-pip # ruby nodejs npm go rust cargo php perl
 
 # 9. Web Servers and Reverse Proxies
 sudo apk add nginx apache2 lighttpd tomcat-native varnish squid
