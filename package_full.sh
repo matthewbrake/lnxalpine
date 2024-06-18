@@ -30,7 +30,7 @@ sudo apk add btop sysstat glances logrotate lsof strace perf htop ntop bpytop if
 sudo apk add p7zip lz4
 
 # 6. Disk Utilities and File Systems
-sudo apk add e2fsprogs xfsprogs dosfstools ntfs-3g lvm2 mdadm smartmontools gparted hdparm mtools cryptsetup
+sudo apk add e2fsprogs e2fsprogs-extra xfsprogs dosfstools ntfs-3g lvm2 mdadm smartmontools gparted hdparm mtools cryptsetup
 
 # 7. Development Tools and Libraries
 sudo apk add build-base linux-headers gdb valgrind ctags git-lfs cmake autoconf automake libtool m4 gcc g++ make patch libc6-compat glibc libgcc libstdc++ musl libintl libcrypto1.1 libssl1.1 zlib libbz2 expat libffi musl-utils readline ncurses-libs ncurses-terminfo-base ca-certificates
