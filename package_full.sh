@@ -2,7 +2,9 @@
 
 # Ensure your system is up-to-date
 sudo apk update
-sudo apk upgrade
+sudo apk upgrade --avaliable
+sudo apk add linux-firmware
+
 
 # Alpine base
 sudo apk add alpine-base alpine-keys alpine-sdk busybox build-base
